@@ -2,9 +2,9 @@ package uvsq.pglp_3_2;
 
 public abstract class Employe {
 	
-	double salaire;
-	double primeAnnee;
-	int nbrAnnee;
+	protected double salaire;
+	protected double primeAnnee;
+	protected int nbrAnnee;
 
 	public Employe() {
 		salaire = 1500;
